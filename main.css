@@ -37,7 +37,7 @@ header {
     cursor: pointer;
     box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
     padding: 15px;
-    transition: background-color, color 0.3s ease-in;
+        
   }
 
   .about__image {
@@ -89,7 +89,8 @@ header {
   .form {
     background:#1D263A;
     color: #fff;
-    padding-top: 115px; padding-bottom: 115px;
+    padding-top: 115px; 
+    padding-bottom: 115px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -119,28 +120,19 @@ header {
 
   .form label {
     font-size: 18px;
-    font-weight:601;
+    font-weight:600;
     margin-bottom: 15px;
   }
     
-  .form input{
+  .form input, .form select {
+    border: none;
+    border-radius: 15px;
+    padding: 0 20px;
+    outline: none;
     font-size: 18px;
     color: #213053;
     height: 60px;
-    padding: 0px 20px;
-    border-radius: 15px;
-    border: none;
-
-  }
-
-  .form select{
-    font-size: 18px;
-    color: #213053;
-    height: 60px;
-    padding: 0px 20px;
-    border-radius: 15px;
-    border: none;
-  }
+ }
 
   .form__submit{
     font-size: 18px;
@@ -148,19 +140,11 @@ header {
     margin-top: 40px;
       
   }
-
-  .select {
-    appearance: none;
-  }
-
-  .input {
-    outline: none;
-  }
-
-     
+      
   button:hover {
     background-color: #f6980c;
     box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
+    transition: background-color 0.3s ease-in;
   }
   
   .footer{
