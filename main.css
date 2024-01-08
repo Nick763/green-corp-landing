@@ -68,6 +68,15 @@ header {
     background: url('img/back.png') no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
+  }
+
+  .orb-canvas{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
   }
 
   .about h1 {
@@ -377,6 +386,15 @@ header {
 @media (max-width: 1024px) {
   .about {
       padding: 115px 20px;
+      position: relative;
+  }
+
+  .orb-canvas{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
   }
 
   .about h1 {
@@ -462,6 +480,15 @@ header {
   .about {
       flex-direction: column-reverse;
       padding: 50px 10px;
+      position: relative;
+  }
+  
+  .orb-canvas{
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
   }
 
   .about h1 {
