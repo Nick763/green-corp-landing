@@ -8,10 +8,19 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
-    top:0;
-    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba();
+    transition: background-color 0.25s ease;
     z-index: 1;
+    
+  }
+
+  .header__scrolled {
+    background-color: white;
+    box-shadow: 0 12px 34px -11px rgb(65 62 101 / 10%);
   }
 
   .header__controls{
@@ -63,7 +72,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 115px;
+    padding-top: 200px;
     padding-bottom: 115px;
     background: url('img/back.png') no-repeat;
     background-position: center;
@@ -386,8 +395,9 @@ header {
 /* Планшеты */
 @media (max-width: 1024px) {
   .about {
-      padding: 115px 20px;
-      position: relative;
+    padding: 115px 20px;
+    padding-top: 200px;
+    position: relative;
   }
 
   .orb-canvas{
@@ -479,8 +489,9 @@ header {
   }
 
   .about {
-      flex-direction: column-reverse;
+      flex-direction: column-reverse;      
       padding: 50px 10px;
+      padding-top: 200px;
       position: relative;
   }
   
