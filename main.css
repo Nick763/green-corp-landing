@@ -1,10 +1,12 @@
 body {
+  max-width: 1980px;
   font-family: 'Raleway', sans-serif;
   color: #213053;
   margin: 0;
  }
 
 header {
+    max-width: 1980px;
     display: flex;
     justify-content: space-between;
     align-items: center;
