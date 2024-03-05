@@ -1,12 +1,13 @@
-body {
-  max-width: 1980px;
-  font-family: 'Raleway', sans-serif;
-  color: #213053;
-  margin: 0;
- }
-
-header {
+  body {
     max-width: 1980px;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    color: #213053; 
+  }
+
+  header {
+    max-width: 1980px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,8 +17,7 @@ header {
     right: 0;
     background-color: rgba();
     transition: background-color 0.25s ease;
-    z-index: 1;
-    
+    z-index: 1;    
   }
 
   .header__scrolled {
